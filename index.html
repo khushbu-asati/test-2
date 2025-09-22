@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Website Preview</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <style>
+        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; }
+        .full-preview-container > div:not(:last-child) { margin-bottom: 0rem; }
+      </style>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  <div class="full-preview-container">
+    <div class="min-h-screen bg-gradient-to-br from-blue-400 via-purple-400 to-indigo-500 flex items-center justify-center p-4" data-element-id="el-1">
+    <div class="w-full max-w-md bg-white/90 backdrop-blur-lg rounded-2xl shadow-2xl p-8 space-y-6 relative border border-white/20" data-element-id="el-2">
+        <div class="text-center" data-element-id="el-3">
+            <div class="relative inline-block" data-element-id="el-4">
+                <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3" alt="Profile" class="w-24 h-24 mx-auto rounded-full object-cover shadow-lg ring-4 ring-blue-500/30" data-element-id="el-5">
+                <div class="absolute -bottom-2 -right-2 bg-blue-500 rounded-full p-2 shadow-lg" data-element-id="el-6">
+                    <i class="fas fa-user-check text-white" data-element-id="el-7"></i>
+                </div>
+            </div>
+            <h2 class="mt-6 text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent" data-element-id="el-8">Welcome Back</h2>
+            <p class="mt-2 text-gray-600" data-element-id="el-9">Please sign in to continue</p>
+        </div>
+        <div class="grid grid-cols-3 gap-3 mb-6" data-element-id="el-10">
+            <button type="button" class="flex justify-center items-center py-3 border rounded-lg hover:bg-gray-50 transition duration-200 transform hover:scale-105" data-element-id="el-11">
+                <i class="fab fa-google text-red-600 text-xl" data-element-id="el-12"></i>
+            </button>
+            <button type="button" class="flex justify-center items-center py-3 border rounded-lg hover:bg-gray-50 transition duration-200 transform hover:scale-105" data-element-id="el-13">
+                <i class="fab fa-facebook text-blue-600 text-xl" data-element-id="el-14"></i>
+            </button>
+            <button type="button" class="flex justify-center items-center py-3 border rounded-lg hover:bg-gray-50 transition duration-200 transform hover:scale-105" data-element-id="el-15">
+                <i class="fab fa-apple text-gray-800 text-xl" data-element-id="el-16"></i>
+            </button>
+        </div>
+        <div class="relative" data-element-id="el-17">
+            <div class="absolute inset-0 flex items-center" data-element-id="el-18">
+                <div class="w-full border-t border-gray-300" data-element-id="el-19"></div>
+            </div>
+            <div class="relative flex justify-center text-sm" data-element-id="el-20">
+                <span class="px-4 bg-white/90 text-gray-500 rounded-full" data-element-id="el-21">Or continue with</span>
+            </div>
+        </div>
+        <form id="loginForm" class="space-y-6" onsubmit="return false;" data-element-id="el-22">
+            <div class="space-y-2" data-element-id="el-23">
+                <label for="email" class="text-sm font-medium text-gray-700 block" data-element-id="el-24">Email</label>
+                <div class="relative" data-element-id="el-25">
+                    <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200" placeholder="Enter your email" required="" data-element-id="el-26">
+                </div>
+            </div>
+            <div class="space-y-2" data-element-id="el-27">
+                <label for="password" class="text-sm font-medium text-gray-700 block" data-element-id="el-28">Password</label>
+                <div class="relative" data-element-id="el-29">
+                    <input type="password" id="password" name="password" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200" placeholder="Enter your password" required="" minlength="8" data-element-id="el-30">
+                    <button type="button" class="absolute inset-y-0 right-0 flex items-center pr-3" onclick="togglePassword('password')" data-element-id="el-31">
+                        <i class="fas fa-eye text-gray-400 hover:text-gray-600 cursor-pointer" data-element-id="el-32"></i>
+                    </button>
+                </div>
+                <div class="flex items-center justify-between" data-element-id="el-33">
+                    <div class="flex items-center" data-element-id="el-34">
+                        <input type="checkbox" id="remember" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" data-element-id="el-35">
+                        <label for="remember" class="ml-2 block text-sm text-gray-700" data-element-id="el-36">Remember me</label>
+                    </div>
+                    <a href="#" class="text-sm font-medium text-blue-600 hover:text-blue-500" data-element-id="el-37">Forgot password?</a>
+                </div>
+            </div>
+            <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200 transform hover:scale-[1.02]" data-element-id="el-38">Sign In</button>
+            <div class="text-center mt-4" data-element-id="el-39">
+                <p class="text-sm text-gray-600" data-element-id="el-40">Don't have an account? 
+                    <button onclick="showForm('signup')" class="text-blue-600 hover:text-blue-500 font-medium" data-element-id="el-41">Sign up</button>
+                </p>
+            </div>
+        </form>
+        <form id="signupForm" class="space-y-6 hidden" onsubmit="return false;" data-element-id="el-42">
+            <div class="space-y-2" data-element-id="el-43">
+                <label for="signup-name" class="text-sm font-medium text-gray-700 block" data-element-id="el-44">Full Name</label>
+                <div class="relative" data-element-id="el-45">
+                    <input type="text" id="signup-name" name="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200" placeholder="Enter your full name" required="" data-element-id="el-46">
+                </div>
+            </div>
+            <div class="space-y-2" data-element-id="el-47">
+                <label for="signup-email" class="text-sm font-medium text-gray-700 block" data-element-id="el-48">Email</label>
+                <div class="relative" data-element-id="el-49">
+                    <input type="email" id="signup-email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200" placeholder="Enter your email" required="" data-element-id="el-50">
+                </div>
+            </div>
+            <div class="space-y-2" data-element-id="el-51">
+                <label for="signup-password" class="text-sm font-medium text-gray-700 block" data-element-id="el-52">Password</label>
+                <div class="relative" data-element-id="el-53">
+                    <input type="password" id="signup-password" name="password" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200" placeholder="Enter your password" required="" minlength="8" data-element-id="el-54">
+                    <button type="button" class="absolute inset-y-0 right-0 flex items-center pr-3" onclick="togglePassword('signup-password')" data-element-id="el-55">
+                        <i class="fas fa-eye text-gray-400 hover:text-gray-600 cursor-pointer" data-element-id="el-56"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="space-y-2" data-element-id="el-57">
+                <label for="signup-confirm-password" class="text-sm font-medium text-gray-700 block" data-element-id="el-58">Confirm Password</label>
+                <div class="relative" data-element-id="el-59">
+                    <input type="password" id="signup-confirm-password" name="confirm-password" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200" placeholder="Confirm your password" required="" minlength="8" data-element-id="el-60">
+                    <button type="button" class="absolute inset-y-0 right-0 flex items-center pr-3" onclick="togglePassword('signup-confirm-password')" data-element-id="el-61">
+                        <i class="fas fa-eye text-gray-400 hover:text-gray-600 cursor-pointer" data-element-id="el-62"></i>
+                    </button>
+                </div>
+            </div>
+            <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200 transform hover:scale-[1.02]" data-element-id="el-63">Sign Up</button>
+            <div class="text-center mt-4" data-element-id="el-64">
+                <p class="text-sm text-gray-600" data-element-id="el-65">Already have an account? 
+                    <button onclick="showForm('login')" class="text-blue-600 hover:text-blue-500 font-medium" data-element-id="el-66">Login</button>
+                </p>
+            </div>
+        </form>
+    </div>
+    <script data-element-id="el-67">
+        function togglePassword(inputId) {
+            const passwordInput = document.getElementById(inputId);
+            const eyeIcon = passwordInput.nextElementSibling.querySelector('i');
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                eyeIcon.classList.remove('fa-eye');
+                eyeIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordInput.type = 'password';
+                eyeIcon.classList.remove('fa-eye-slash');
+                eyeIcon.classList.add('fa-eye');
+            }
+        }
+        function showForm(formType) {
+            const loginForm = document.getElementById('loginForm');
+            const signupForm = document.getElementById('signupForm');
+            if (formType === 'login') {
+                loginForm.classList.remove('hidden');
+                signupForm.classList.add('hidden');
+            } else {
+                loginForm.classList.add('hidden');
+                signupForm.classList.remove('hidden');
+            }
+        }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" data-element-id="el-68">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" data-element-id="el-69">
+</div>
+  </div>
+</body>
+</html>
